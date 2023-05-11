@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ;
+}
+
+nav {
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: auto;
+  background-color: black;
+  align-items: center;
+}
+nav ul a {
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  font-size: 18px;
+}
+i {
+  padding: 0.5rem;
+  font-size: 20px;
+  color: gray;
+  align-items: center;
+}
+
+header {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+header img {
+  width: 150px;
+}
+.icon {
+  display: flex;
+}
+.icon a:hover {
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
+.icon li,
+a {
+  list-style: none;
+  margin: 0.7rem;
+  text-decoration: none;
+  color: black;
+
+  font-size: 18px;
+}
+#get a {
+  padding: 0.7rem 2.5rem;
+  background-color: green;
+  color: white;
+}
+#get a:hover {
+  background-color: #000422;
+}
+
+#photo {
+  margin-top: 1rem;
+  background: rgba(0, 0, 0, 0.5) url(/Roofing/photo/castle-gede469292_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text h1 {
+  color: white;
+  font-size: 50px;
+  width: 550px;
+  margin-bottom: 1rem;
+}
+
+.text button {
+  background-color: green;
+  padding: 0.6rem 2.5rem;
+  color: white;
+  border: 1px solid white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.text button:hover {
+  background-color: #000422;
+}
+
+.text span {
+  color: white !important;
+  font-size: 17px;
+  margin-left: 1rem;
+  border: 1px solid;
+  padding: 0.6rem 3rem;
+}
+.text span:hover {
+  background-color: #000422;
+}
+
+#icon-box {
+  display: flex;
+  margin: 3rem auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  flex-wrap: wrap;
+}
+.image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+.image h1 {
+  margin-left: 2rem;
+}
+
+#form-text {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.text-tyap {
+  width: 30%;
+}
